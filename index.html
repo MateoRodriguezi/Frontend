@@ -1,0 +1,171 @@
+<!-- Alejandro Vazquez 283635- Mateo Rodriguez 192391-->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <link rel="stylesheet" href="css/estilo.css">
+    <meta charset="utf-8">
+    <meta name="autho" content="Mateo Rodriguez y Alejandro Vazquez">
+    <meta name="description" content="Obligatorio 1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/clases.js"></script>
+    <script src="js/funciones.js"></script>
+
+    <title>Obligatorio 1</title>
+
+</head>
+
+
+
+<body>
+
+    <header>
+        <h1> Celulares SA</h1><br>
+    </header>
+
+
+
+    <nav>
+        <a href="">Comparar</a>
+        <a href="">Resumen</a>
+        <a href="#ancla">Pie de pagina</a><br>
+    </nav>
+
+
+    <aside>
+        <h2>Recomendaciones</h2>
+        <p>Para elegir un celular es recomendable considerar, ademas del precio, el sistema
+            operativo, tamaño de la pantalla y la
+            memoria disponible</p><br>
+        <p>Les sugerimos visitar estos sitios para
+            asesorars sobre algunos celulares del
+            mercado o utilizar el buscador</p>
+
+        <a href="https://www.samsung.com/uy/" target=_blank>Samsung</a>
+        <br>
+        <a href="https://www.apple.com/" target=_blank>Apple</a>
+        <br>
+        <a href="https://www.mi.com/global/" target=_blank>Xiaomi</a>
+        <br>
+
+        <div id="botonesDelAside">
+            <img src="imagenes/Logo_40wht.gif" alt="Google"></A>
+            <form>
+                <input type="search">
+                <br>
+                <button type="search">Google search</button>
+                <input type="hidden">
+            </form>
+        </div>
+
+
+
+    </aside>
+
+
+    <section id="seccion1">
+        <h2>Ingreso de datos</h2>
+
+
+        <article id="primerosArt">
+            <h2>Marcas</h2>
+            <form>
+                <label for="idMarca">Marca</label>
+                <input type="text" id="idMarca" maxlength="25" placeholder="ingrese marca" required>
+                <br>
+                <br>
+                <label for="idComentarios">Comentarios</label>
+                <input type="text" id="idComentarios" maxlength="25" placeholder="comentarios" required>
+            </form>
+            <br>
+            <br>
+            <button>Registrar Marca</button>
+        </article><br>
+
+        <article id="primerosArt">
+            <h2>Celulares</h2>
+            <div id="formulario">
+                <form>
+                    <label for="IdtipoCelular"> Marca </label>
+                    <select id="IdtipoCelular" name="celular">
+                    </select><br>
+                    <label for="idModelo">Modelo</label>
+                    <input type="text" id="idModelo" maxlength="25" required><br>
+                    <label for="idDescripcion">Descripcion</label>
+                    <input type="text" id="idDescripcion" maxlength="25"><br>
+                    <label for="idPrecio">Precio</label>
+                    <input type="text" id="idPrecio" maxlength="25"><br>
+                    <label for="idPantalla">Pantalla</label>
+                    <input type="text" id="idPantalla" maxlength="25"><br>
+                    <label for="idMemoria">Memoria</label>
+                    <input type="text" id="idMemoria" maxlength="25"><br>
+                    <label for="idSistema">Sist Operativo</label>
+                    <input type="text" id="idSistema" maxlength="25"><br>
+                </form>
+            </div><br>
+            <button>Registrar Celular</button>
+        </article>
+
+
+
+    </section>
+
+    <section id="seccion2">
+        <h2>Comparacion</h2>
+
+
+        <article>
+            <label for="IdModelo2"> Marca </label>
+            <select id="IdModelo2" name="modelo2">
+                <option value="Iphone X"> Iphone X </option>
+                <option value="Samsung S21"> Samsung S21 </option>
+            </select>
+            <button>Agregar en Tabla</button>
+            <button>Vaciar Tabla</button><br><br>
+
+
+            <table>
+                <tr>
+                    <td>Modelo</td>
+                </tr>
+                <tr>
+                    <td>Descripcion</td>
+                </tr>
+                <tr>
+                    <td>Marca</td>
+                </tr>
+                <tr>
+                    <td>Memoria</td>
+                </tr>
+                <tr>
+                    <td>Pantalla</td>
+                </tr>
+                <tr>
+                    <td>Precio</td>
+                </tr>
+                <tr>
+                    <td>Sistema Operativo</td>
+                </tr>
+            </table>
+        </article>
+    </section>
+
+    <section id="seccion3">
+        <h2>Resumen</h2><br>
+        <p>Cantidad total de celulares: SIN DATOS</p>
+        <p>Precio promedio por celular: SIN DATOS</p>
+        <p>Marcas con la máxima cantidad de celulares (ordenadas por marca)</p>
+        <ul>
+            <li>Sin datos</li>
+        </ul>
+        <p>El celular mas caro es: SIN DATOS</p>
+    </section>
+
+    <footer id="ancla">
+        <b>Mateo Rodriguez - 192391 & Alejandro Vazquez - 283635</b>
+    </footer>
+</body>
+
+</html>

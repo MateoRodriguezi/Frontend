@@ -1,0 +1,171 @@
+/* Mateo Rodriguez 192391  & Alejandro Vazquez 283635*/
+
+body {
+    background-color: #f8f8da;
+}
+
+header {
+    font-size: larger;
+    width: 100%;
+    padding-bottom: 35px;
+    color: brown;
+    text-align: center;
+    background-image:  url("https://i.pinimg.com/originals/b0/4d/3a/b04d3a0946bbe86a2722ce7fc2f4f472.gif")
+}
+
+nav {
+    font-size: large;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+a{
+    color: brown;
+}
+
+aside {
+        text-align: left;
+        background-color: blanchedalmond;
+        float: right;
+        border: blanchedalmond 1px solid;
+        border-radius: 10px;
+        padding-top: 80px;
+        padding-left: 85px;
+        padding-right: 85px;
+        padding-bottom: 80px;
+        width: 15%;
+      }
+
+p {
+    font-size: small;
+}
+
+#botonesDelAside{
+        padding-top: 8px;
+        text-align: center;
+    }
+    
+
+#seccion1 {
+    width: 65%;
+    background-color: burlywood;
+    border: black 1px solid;
+    border-radius: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+}
+
+#seccion2 {
+    width: 65%;
+    background-color: burlywood;
+    border: black 1px solid;
+    border-radius: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+}
+
+#seccion3 {
+    width: 65%;
+    background-color: burlywood;
+    border: black 1px solid;
+    border-radius: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+}
+
+#primerosArt{
+    border: blanchedalmond 1px solid;
+    width: 85%;
+    border-radius: 15px;
+    padding-top: 2px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    background-color: blanchedalmond;
+}
+
+select{
+    width: 153px;
+    display: inline-block;
+}
+
+label{
+    width: 100px;
+    display: inline-block;
+}
+
+
+img{
+    display:inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+#IdModelo2 {
+    width: 200px;
+}
+
+table {
+    text-align: center;
+    border: black 2px solid;
+  }
+  td {
+    border: black 2px solid;
+  }
+
+  footer{
+    font-size: large;  
+    padding-top: 20px;
+    color: white! important;  
+    width: 100%;
+    background-color: #ceaa2a;
+    text-align: center;
+}
+
+button {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: white;
+        width: 100%;
+        }
+
+    aside {
+        width: 55%;
+        padding-left: 35px;
+        padding-right: 35px;
+        display:inline-block;
+        float:none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+     }
+    section {
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 20px;
+    }
+
+    article {
+        padding-top: 40px;
+        padding-bottom: 40px;        
+    }
+    footer {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+}
